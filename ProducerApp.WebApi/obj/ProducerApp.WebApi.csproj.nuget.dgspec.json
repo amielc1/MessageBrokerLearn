@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\ProducerApp.WebApi\\ProducerApp.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Core\\MessageBroker.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Core\\MessageBroker.Core.csproj",
+        "projectName": "MessageBroker.Core",
+        "projectPath": "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Core\\MessageBroker.Core.csproj",
+        "packagesPath": "C:\\Users\\amielc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amielc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Infrastructure\\MessageBroker.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Infrastructure\\MessageBroker.Infrastructure.csproj",
+        "projectName": "MessageBroker.Infrastructure",
+        "projectPath": "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Infrastructure\\MessageBroker.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\amielc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amielc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Core\\MessageBroker.Core.csproj": {
+                "projectPath": "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Core\\MessageBroker.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.4, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.5.43, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\ProducerApp.WebApi\\ProducerApp.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\ProducerApp.WebApi\\ProducerApp.WebApi.csproj",
+        "projectName": "ProducerApp.WebApi",
+        "projectPath": "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\ProducerApp.WebApi\\ProducerApp.WebApi.csproj",
+        "packagesPath": "C:\\Users\\amielc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\ProducerApp.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amielc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Infrastructure\\MessageBroker.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\amielc\\source\\repos\\MessageBrokerLearn\\MessageBroker.Infrastructure\\MessageBroker.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
